@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>speared op</title>
+</head>
+
+<body>
+    <div id="1">
+    </div>
+    <div id="2">
+    </div>
+    <script>
+        function name(fname, lname) {
+            return "my name is " + fname + " " + lname;
+        }
+        let myname = ["Abhishek", "M"];
+        let friendname=["chandramuli","N"];
+        let result = name(...myname);
+        let fr=name(...friendname)
+        document.getElementById("1").innerHTML = result;
+        document.getElementById("2").innerHTML = fr;
+    </script>
+</body>
+
+</html>
